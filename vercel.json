@@ -1,3 +1,18 @@
 {
-    "rewrites": [{ "source": "/:path*", "destination": "/index.html" }]
-    }
+    "builds": [
+      {
+        "src": "nuxt.config.js",
+        "use": "@vercel/static-build",
+        "config": {
+          "distDir": ".nuxt/dist"
+        }
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "/"
+      }
+    ]
+  }
+  
