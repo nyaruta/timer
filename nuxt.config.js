@@ -41,5 +41,8 @@ export default {
   target: 'static',
   generate: {
     dir: 'dist'
+  },
+  router: {
+    base: '/'
   }
 }
