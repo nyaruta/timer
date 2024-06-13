@@ -19,7 +19,7 @@
             <div>Purofle</div>
           </div>
         </div>
-          <h2 class="text-2xl leading-7 font-semibold">
+          <h2 class="text1">
             我们已经相恋了：
           </h2>
         <div class="timer">{{ formattedTime }}</div>
@@ -197,6 +197,10 @@ html, body {
   object-fit: cover;
   object-position: center;
   }
+  .code002, .purofle {
+  text-align: center; /* 使图片和说明文字居中 */
+  font-size: 12px;
+  }
 }
 
 @media (max-width: 520px) {
@@ -266,6 +270,48 @@ html, body {
   .code002, .purofle {
   text-align: center; /* 使图片和说明文字居中 */
   font-size: 12px;
+  }
+  .text1 {
+  font-size: 22px;
+  }
+}
+
+@media (max-width: 360px) {
+  .outer-container {
+    flex-direction: column; /* 在小屏幕上垂直排列 */
+    height: auto; /* 允许容器高度自动调整 */
+  }
+
+  .layout {
+    width: 100%; /* 使布局宽度占满屏幕 */
+    margin: 0; /* 重置边距 */
+    padding: 10px; /* 添加内边距 */
+  }
+
+  .timer {
+    font-size: 15px; /* 调整字体大小 */
+    margin-bottom: 10px; /* 调整底部边距 */
+  }
+
+  .code002 img, .purofle img {
+    width: 55px; /* 调整图片宽度 */
+    height: 55px; /* 调整图片高度 */
+  }
+
+  .love img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  object-position: center;
+  }
+
+  .code002, .purofle {
+  text-align: center; /* 使图片和说明文字居中 */
+  font-size: 10px;
+  }
+
+  .text1 {
+  font-size: 20px;
   }
 }
 </style>
