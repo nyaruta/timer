@@ -4,7 +4,7 @@
       <div class="timer-container">
         <div class="image">
           <div class="code002">
-            <a href="https://t.me/buchhuanpangci" target="_blank">
+            <a href="https://t.me/BuChuanPangCi" target="_blank">
               <img src="public\articles\CODE002.jpg">
             </a>
             <div>CODE:002</div>
