@@ -7,4 +7,5 @@ export default defineNuxtConfig({
   nitro: {
     static: true,
   },
+  pages: false,
 });
