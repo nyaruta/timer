@@ -9,9 +9,9 @@
             </a>
             <div>CODE:002</div>
           </div>
-            <img src="public/articles/Love.png"
-            alt="Love"
-            style="width: 110px; height: 110px; object-fit: cover; object-position: center;">
+          <div class="love">
+            <img src="public/articles/Love.png">
+          </div>
           <div class="purofle">
             <a href="https://t.me/purolle" target="_blank">
               <img src="public\articles\Purofel.jpg">
@@ -50,7 +50,7 @@ export default {
         (hours < 10 ? "0" + hours : hours) +
         " 小时 " +
         (minutes < 10 ? "0" + minutes : minutes) +
-        " 分钟 " +
+        " 分 " +
         (seconds < 10 ? "0" + seconds : seconds) +
         " 秒"
       );
@@ -130,5 +130,142 @@ html, body {
   width: 100px;
   height: 100px;
   border-radius: 50%;
+}
+
+.love img {
+  width: 110px;
+  height: 110px;
+  object-fit: cover;
+  object-position: center;
+}
+
+@media (max-width: 1300px) {
+  .outer-container {
+    flex-direction: column; /* 在小屏幕上垂直排列 */
+    height: auto; /* 允许容器高度自动调整 */
+  }
+
+  .layout {
+    width: 100%; /* 使布局宽度占满屏幕 */
+    margin: 0; /* 重置边距 */
+    padding: 10px; /* 添加内边距 */
+  }
+
+  .timer {
+    font-size: 30px; /* 调整字体大小 */
+    margin-bottom: 10px; /* 调整底部边距 */
+  }
+
+  .code002 img, .purofle img {
+    width: 90px; /* 调整图片宽度 */
+    height: 90px; /* 调整图片高度 */
+  }
+
+  .love img {
+  width: 95px;
+  height: 95px;
+  object-fit: cover;
+  object-position: center;
+  }
+}
+
+@media (max-width: 800px) {
+  .outer-container {
+    flex-direction: column; /* 在小屏幕上垂直排列 */
+    height: auto; /* 允许容器高度自动调整 */
+  }
+
+  .layout {
+    width: 100%; /* 使布局宽度占满屏幕 */
+    margin: 0; /* 重置边距 */
+    padding: 10px; /* 添加内边距 */
+  }
+
+  .timer {
+    font-size: 20px; /* 调整字体大小 */
+    margin-bottom: 10px; /* 调整底部边距 */
+  }
+
+  .code002 img, .purofle img {
+    width: 60px; /* 调整图片宽度 */
+    height: 60px; /* 调整图片高度 */
+  }
+
+  .love img {
+  width: 65px;
+  height: 65px;
+  object-fit: cover;
+  object-position: center;
+  }
+}
+
+@media (max-width: 520px) {
+  .outer-container {
+    flex-direction: column; /* 在小屏幕上垂直排列 */
+    height: auto; /* 允许容器高度自动调整 */
+  }
+
+  .layout {
+    width: 100%; /* 使布局宽度占满屏幕 */
+    margin: 0; /* 重置边距 */
+    padding: 10px; /* 添加内边距 */
+  }
+
+  .timer {
+    font-size: 18px; /* 调整字体大小 */
+    margin-bottom: 10px; /* 调整底部边距 */
+  }
+
+  .code002 img, .purofle img {
+    width: 55px; /* 调整图片宽度 */
+    height: 55px; /* 调整图片高度 */
+  }
+
+  .love img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  object-position: center;
+  }
+
+  .code002, .purofle {
+  text-align: center; /* 使图片和说明文字居中 */
+  font-size: 12px;
+  }
+}
+
+@media (max-width: 430px) {
+  .outer-container {
+    flex-direction: column; /* 在小屏幕上垂直排列 */
+    height: auto; /* 允许容器高度自动调整 */
+  }
+
+  .layout {
+    width: 100%; /* 使布局宽度占满屏幕 */
+    margin: 0; /* 重置边距 */
+    padding: 10px; /* 添加内边距 */
+  }
+
+  .timer {
+    font-size: 16px; /* 调整字体大小 */
+    margin-bottom: 10px; /* 调整底部边距 */
+  }
+
+  .code002 img, .purofle img {
+    width: 55px; /* 调整图片宽度 */
+    height: 55px; /* 调整图片高度 */
+  }
+
+  .love img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  object-position: center;
+  }
+
+  .code002, .purofle {
+  text-align: center; /* 使图片和说明文字居中 */
+  font-size: 12px;
+  }
 }
 </style>
