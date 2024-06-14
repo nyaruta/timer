@@ -145,7 +145,7 @@ html, body {
   object-position: center;
 }
 
-.github-layout img {
+.github-layout, .github-layout img {
   width: 30px;
   height: 30px;
   position: fixed; /* 固定位置 */
@@ -153,15 +153,29 @@ html, body {
   right: 10px; /* 距离页面右边0像素 */
 }
 
+
+
 @media (max-width: 1300px) {
-  .outer-container {
-    flex-direction: column; /* 在小屏幕上垂直排列 */
+    .outer-container {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* 使用 transform 实现垂直和水平居中 */
+    display: flex; /* 使用弹性布局 */
+    justify-content: center; /* 水平居中对齐 */
+    align-items: center; /* 垂直居中对齐 */
+    height: 100vh; /* 使容器高度占满整个视口 */
+    width: 100%;
   }
 
   .layout {
-    width: 100%; /* 使布局宽度占满屏幕 */
+    display: inline-block; /* 使用 inline-block 使元素的宽度根据内容自动调整 */
+    width: auto; /* 重置内容宽度，使其根据内容自动调整 */
+    text-align: left; /* 恢复文字居左显示 */
     margin: 0; /* 重置边距 */
-    padding: 10px; /* 添加内边距 */
+    margin-left: 15px; /* 设置左边距为 15 像素 */
+    height: auto; /* 重置内容高度，使其根据内容自动调整 */
   }
 
   .timer {
@@ -183,14 +197,26 @@ html, body {
 }
 
 @media (max-width: 800px) {
-  .outer-container {
-    flex-direction: column; /* 在小屏幕上垂直排列 */
+    .outer-container {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* 使用 transform 实现垂直和水平居中 */
+    display: flex; /* 使用弹性布局 */
+    justify-content: center; /* 水平居中对齐 */
+    align-items: center; /* 垂直居中对齐 */
+    height: 100vh; /* 使容器高度占满整个视口 */
+    width: 100%;
   }
 
   .layout {
-    width: 100%; /* 使布局宽度占满屏幕 */
+    display: inline-block; /* 使用 inline-block 使元素的宽度根据内容自动调整 */
+    width: auto; /* 重置内容宽度，使其根据内容自动调整 */
+    text-align: left; /* 恢复文字居左显示 */
     margin: 0; /* 重置边距 */
-    padding: 10px; /* 添加内边距 */
+    margin-left: 15px; /* 设置左边距为 15 像素 */
+    height: auto; /* 重置内容高度，使其根据内容自动调整 */
   }
 
   .timer {
@@ -217,14 +243,26 @@ html, body {
 }
 
 @media (max-width: 520px) {
-  .outer-container {
-    flex-direction: column; /* 在小屏幕上垂直排列 */
+    .outer-container {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* 使用 transform 实现垂直和水平居中 */
+    display: flex; /* 使用弹性布局 */
+    justify-content: center; /* 水平居中对齐 */
+    align-items: center; /* 垂直居中对齐 */
+    height: 100vh; /* 使容器高度占满整个视口 */
+    width: 100%;
   }
 
   .layout {
-    width: 100%; /* 使布局宽度占满屏幕 */
+    display: inline-block; /* 使用 inline-block 使元素的宽度根据内容自动调整 */
+    width: auto; /* 重置内容宽度，使其根据内容自动调整 */
+    text-align: left; /* 恢复文字居左显示 */
     margin: 0; /* 重置边距 */
-    padding: 10px; /* 添加内边距 */
+    margin-left: 15px; /* 设置左边距为 15 像素 */
+    height: auto; /* 重置内容高度，使其根据内容自动调整 */
   }
 
   .timer {
@@ -251,14 +289,26 @@ html, body {
 }
 
 @media (max-width: 430px) {
-  .outer-container {
-    flex-direction: column; /* 在小屏幕上垂直排列 */
+    .outer-container {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* 使用 transform 实现垂直和水平居中 */
+    display: flex; /* 使用弹性布局 */
+    justify-content: center; /* 水平居中对齐 */
+    align-items: center; /* 垂直居中对齐 */
+    height: 100vh; /* 使容器高度占满整个视口 */
+    width: 100%;
   }
 
   .layout {
-    width: 100%; /* 使布局宽度占满屏幕 */
+    display: inline-block; /* 使用 inline-block 使元素的宽度根据内容自动调整 */
+    width: auto; /* 重置内容宽度，使其根据内容自动调整 */
+    text-align: left; /* 恢复文字居左显示 */
     margin: 0; /* 重置边距 */
-    padding: 10px; /* 添加内边距 */
+    margin-left: 15px; /* 设置左边距为 15 像素 */
+    height: auto; /* 重置内容高度，使其根据内容自动调整 */
   }
 
   .timer {
@@ -288,14 +338,26 @@ html, body {
 }
 
 @media (max-width: 360px) {
-  .outer-container {
-    flex-direction: column; /* 在小屏幕上垂直排列 */
+    .outer-container {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* 使用 transform 实现垂直和水平居中 */
+    display: flex; /* 使用弹性布局 */
+    justify-content: center; /* 水平居中对齐 */
+    align-items: center; /* 垂直居中对齐 */
+    height: 100vh; /* 使容器高度占满整个视口 */
+    width: 100%;
   }
 
   .layout {
-    width: 100%; /* 使布局宽度占满屏幕 */
+    display: inline-block; /* 使用 inline-block 使元素的宽度根据内容自动调整 */
+    width: auto; /* 重置内容宽度，使其根据内容自动调整 */
+    text-align: left; /* 恢复文字居左显示 */
     margin: 0; /* 重置边距 */
-    padding: 10px; /* 添加内边距 */
+    margin-left: 15px; /* 设置左边距为 15 像素 */
+    height: auto; /* 重置内容高度，使其根据内容自动调整 */
   }
 
   .timer {
@@ -324,12 +386,12 @@ html, body {
   font-size: 20px;
   }
 
-  .github-layout img {
+  .github-layout, .github-layout img {
   width: 25px;
   height: 25px;
   position: fixed; /* 固定位置 */
   bottom: 8px; /* 距离页面底部0像素 */
-  right: 8px; /* 距离页面右边0像素 */
+  right: 8px /* 距离页面右边0像素 */
 }
 }
 </style>
