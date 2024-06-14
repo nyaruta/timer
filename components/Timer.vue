@@ -101,7 +101,6 @@ html, body {
   width: auto; /* 重置内容宽度，使其根据内容自动调整 */
   text-align: left; /* 恢复文字居左显示 */
   margin: 0; /* 重置边距 */
-  margin-left: 15px; /* 设置左边距为 15 像素 */
   height: auto; /* 重置内容高度，使其根据内容自动调整 */
 }
 
@@ -174,7 +173,6 @@ html, body {
     width: auto; /* 重置内容宽度，使其根据内容自动调整 */
     text-align: left; /* 恢复文字居左显示 */
     margin: 0; /* 重置边距 */
-    margin-left: 15px; /* 设置左边距为 15 像素 */
     height: auto; /* 重置内容高度，使其根据内容自动调整 */
   }
 
@@ -215,7 +213,6 @@ html, body {
     width: auto; /* 重置内容宽度，使其根据内容自动调整 */
     text-align: left; /* 恢复文字居左显示 */
     margin: 0; /* 重置边距 */
-    margin-left: 15px; /* 设置左边距为 15 像素 */
     height: auto; /* 重置内容高度，使其根据内容自动调整 */
   }
 
@@ -261,7 +258,6 @@ html, body {
     width: auto; /* 重置内容宽度，使其根据内容自动调整 */
     text-align: left; /* 恢复文字居左显示 */
     margin: 0; /* 重置边距 */
-    margin-left: 15px; /* 设置左边距为 15 像素 */
     height: auto; /* 重置内容高度，使其根据内容自动调整 */
   }
 
@@ -307,7 +303,6 @@ html, body {
     width: auto; /* 重置内容宽度，使其根据内容自动调整 */
     text-align: left; /* 恢复文字居左显示 */
     margin: 0; /* 重置边距 */
-    margin-left: 15px; /* 设置左边距为 15 像素 */
     height: auto; /* 重置内容高度，使其根据内容自动调整 */
   }
 
@@ -356,7 +351,6 @@ html, body {
     width: auto; /* 重置内容宽度，使其根据内容自动调整 */
     text-align: left; /* 恢复文字居左显示 */
     margin: 0; /* 重置边距 */
-    margin-left: 15px; /* 设置左边距为 15 像素 */
     height: auto; /* 重置内容高度，使其根据内容自动调整 */
   }
 
