@@ -147,9 +147,9 @@ html, body {
 .github-layout, .github-layout img {
   width: 30px;
   height: 30px;
-  position: fixed; /* 固定位置 */
-  bottom: 10px; /* 距离页面底部0像素 */
-  right: 10px; /* 距离页面右边0像素 */
+  position: absolute; /* 位置 */
+  bottom: 10px; /* 距离页面底部10像素 */
+  right: 10px; /* 距离页面右边10像素 */
 }
 
 
@@ -383,9 +383,9 @@ html, body {
   .github-layout, .github-layout img {
   width: 25px;
   height: 25px;
-  position: fixed; /* 固定位置 */
-  bottom: 8px; /* 距离页面底部0像素 */
-  right: 8px /* 距离页面右边0像素 */
+  position: absolute; /* 位置 */
+  bottom: 8px; /* 距离页面底部8像素 */
+  right: 8px /* 距离页面右边8像素 */
 }
 }
 </style>
