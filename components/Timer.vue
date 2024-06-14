@@ -1,5 +1,10 @@
 <template>
   <div class="outer-container">
+    <div class="github-layout">
+      <a href="https://github.com/Emilia-EMT/timer" target="_blank">
+        <img src="public\articles\github-mark.png">
+      </a>
+    </div>
     <div class="layout">
       <div class="timer-container">
         <div class="image">
@@ -88,6 +93,7 @@ html, body {
   justify-content: center; /* 水平居中对齐 */
   align-items: center; /* 垂直居中对齐 */
   height: 100vh; /* 使容器高度占满整个视口 */
+  width: 100%;
 }
 
 .layout {
@@ -139,10 +145,17 @@ html, body {
   object-position: center;
 }
 
+.github-layout img {
+  width: 30px;
+  height: 30px;
+  position: fixed; /* 固定位置 */
+  bottom: 10px; /* 距离页面底部0像素 */
+  right: 10px; /* 距离页面右边0像素 */
+}
+
 @media (max-width: 1300px) {
   .outer-container {
     flex-direction: column; /* 在小屏幕上垂直排列 */
-    height: auto; /* 允许容器高度自动调整 */
   }
 
   .layout {
@@ -172,7 +185,6 @@ html, body {
 @media (max-width: 800px) {
   .outer-container {
     flex-direction: column; /* 在小屏幕上垂直排列 */
-    height: auto; /* 允许容器高度自动调整 */
   }
 
   .layout {
@@ -197,6 +209,7 @@ html, body {
   object-fit: cover;
   object-position: center;
   }
+
   .code002, .purofle {
   text-align: center; /* 使图片和说明文字居中 */
   font-size: 12px;
@@ -206,7 +219,6 @@ html, body {
 @media (max-width: 520px) {
   .outer-container {
     flex-direction: column; /* 在小屏幕上垂直排列 */
-    height: auto; /* 允许容器高度自动调整 */
   }
 
   .layout {
@@ -241,7 +253,6 @@ html, body {
 @media (max-width: 430px) {
   .outer-container {
     flex-direction: column; /* 在小屏幕上垂直排列 */
-    height: auto; /* 允许容器高度自动调整 */
   }
 
   .layout {
@@ -279,7 +290,6 @@ html, body {
 @media (max-width: 360px) {
   .outer-container {
     flex-direction: column; /* 在小屏幕上垂直排列 */
-    height: auto; /* 允许容器高度自动调整 */
   }
 
   .layout {
@@ -313,5 +323,13 @@ html, body {
   .text1 {
   font-size: 20px;
   }
+
+  .github-layout img {
+  width: 25px;
+  height: 25px;
+  position: fixed; /* 固定位置 */
+  bottom: 8px; /* 距离页面底部0像素 */
+  right: 8px; /* 距离页面右边0像素 */
+}
 }
 </style>
