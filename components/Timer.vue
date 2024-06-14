@@ -144,12 +144,17 @@ html, body {
   object-position: center;
 }
 
-.github-layout, .github-layout img {
+.github-layout {
+  position: absolute; /* 子容器绝对定位 */
+  bottom: 10px; /* 距离父容器底部10像素 */
+  right: 10px; /* 距离父容器右边10像素 */
   width: 30px;
   height: 30px;
-  position: absolute; /* 位置 */
-  bottom: 10px; /* 距离页面底部10像素 */
-  right: 10px; /* 距离页面右边10像素 */
+}
+
+.github-layout img {
+  width: 100%; /* 使图片充满父容器 */
+  height: 100%; /* 使图片充满父容器 */
 }
 
 
@@ -380,12 +385,17 @@ html, body {
   font-size: 20px;
   }
 
-  .github-layout, .github-layout img {
+  .github-layout {
+  position: absolute; /* 子容器绝对定位 */
+  bottom: 8px; /* 距离父容器底部8像素 */
+  right: 10px; /* 距离父容器右边8像素 */
   width: 25px;
   height: 25px;
-  position: absolute; /* 位置 */
-  bottom: 8px; /* 距离页面底部8像素 */
-  right: 8px /* 距离页面右边8像素 */
+}
+
+.github-layout img {
+  width: 100%; /* 使图片充满父容器 */
+  height: 100%; /* 使图片充满父容器 */
 }
 }
 </style>
