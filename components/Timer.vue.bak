@@ -1,7 +1,7 @@
 <template>
   <div class="outer-container">
     <div class="github-layout">
-      <a href="https://github.com/nyaruta/timer" target="_blank">
+      <a href="https://github.com/Emilia-EMT/timer" target="_blank">
         <img src="public\articles\github-mark.png">
       </a>
     </div>
